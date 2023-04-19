@@ -1,0 +1,9 @@
+body{
+    width: 1000px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin-left: 300px;
+    overflow: wrap;
+  }
+

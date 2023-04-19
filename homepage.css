@@ -1,0 +1,108 @@
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+style{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+  overflow: hidden;
+}
+
+.imgSlider{
+    width: 1500px;
+    height: 300px;
+    background-image: url('images project/1.jpg.jpg');
+    background-size: 100% 100%;
+    box-shadow: rgba(149,157,165, 0.2) 0px 8px 24px;
+animation: changeImage 2s linear infinite;
+}
+@keyframes changeImage {
+    50%{
+        background-image: url("images project/1.jpg.jpg") ;
+    }
+    100%{
+        background-image: url("images project/7.jpg") ;
+    }
+}
+.Ellipse {    
+  position: absolute; 
+  width: 800px;
+  height: 500px;
+  left: -10px;
+  top: 360px;
+  border-top-right-radius: 1000px;
+  background: #1BBDE0;
+  place-items: right;
+  
+   } 
+ .text{
+  text-align:center;
+  word-spacing: 8000000000000000000px;
+  text-decoration: solid;
+  position: absolute; 
+  top: 20px;
+  color: white;
+  
+ }
+
+ .nav
+ {
+  width: 300px;
+  margin-left: 1200px;
+  margin-bottom: 200px;
+  text-align: center;
+  margin-top:75px;
+  font-size: medium;
+  
+ }
+ 
+ .image
+ {
+  width: 1000px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  margin-left: -400px;
+  margin-bottom: 300px;
+  margin-top: 80px;
+ }
+
+ .upload{
+  text-align: left;
+  margin-left: 800px;
+  margin-top: -80px;
+}
+ .website{
+  margin-top:-18%;
+  text-align: right;
+margin-right:18%;
+
+color: blue;
+text-decoration:underline;
+
+
+ }
